@@ -16,3 +16,8 @@ nav a:hover {
     transition: .9s;
     color: #7FFF00;
 }
+
+p {
+    width: 35%;
+    margin: auto;
+}
