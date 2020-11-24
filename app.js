@@ -15,6 +15,14 @@ app.get("/venus", function(req, res){
     res.render("venus.html");
 })
 
+app.get("/earth", function(req, res){
+    res.render("earth.html");
+})
+
+app.get("/neptune", function(req, res){
+    res.render("neptune.html");
+})
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Express server is running...");
 });

@@ -1,4 +1,18 @@
 body {
-    background-color: gray;
+    background-color: #5F9EA0;
     text-align: center;
+}
+
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #2F4F4F;
+}
+
+nav a:hover {
+    font-size: 2em;
+    transition: .9s;
+    color: #7FFF00;
 }
